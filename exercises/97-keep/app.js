@@ -1,6 +1,6 @@
 // Write your function here
 function keep(arr, num) {
-  return arr.filter(function(i) {  // filters elements that match the number to its own array
+  return arr.filter(function(i) {
     return i === num;
   });
 }
